@@ -1,4 +1,5 @@
 # ==========================================================================================
+pacman::p_load(tidyverse, RPostgreSQL, RPostgres, DBI, tictoc)
 
 print("Write data to database...")
 
